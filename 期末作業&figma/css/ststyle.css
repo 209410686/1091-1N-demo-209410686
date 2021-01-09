@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Ibarra+Real+Nova:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Archivo+Narrow&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Ibarra Real Nova', serif;
+  background-color: #f9f2f2;
+  font-size: 1.2em;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.header {
+  height: 7rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 2.5rem;
+}
+
+.header .logo-container {
+  height: 100%;
+  width: 7rem;
+  padding: 2.5rem;
+}
+
+.header .options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  width: 50%;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.header .options .option {
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+}
+
+section.articles {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 2em;
+  width: 95%;
+  margin: 0 auto;
+}
+
+section.articles article img {
+  width: 100%;
+  height: auto;
+}
+
+section.articles article a {
+  text-decoration: none;
+  color: black;
+}
+/*# sourceMappingURL=ststyle.css.map */
